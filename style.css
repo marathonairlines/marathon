@@ -1,0 +1,47 @@
+body {
+    font-family: 'Oswald', sans-serif !important;
+}
+
+.navbar-brand {
+    font-size: 2.3rem !important;
+}
+
+nav div {
+    font-size: 2rem !important;
+}
+
+nav li {
+    position: relative !important;
+}
+
+nav .nav-item::before {
+    content: '';
+    display: block;
+    height: 5px;
+    background-color: #444;
+
+    top: 0;
+    width: 0%;
+
+    transition: all ease-in-out 250ms;
+}
+
+nav .nav-item:hover::before {
+    width: 100%;
+}
+
+.dropdown-item {
+    font-size: 1.5rem;
+}
+
+.slider-img {
+    filter: brightness(50%);
+}
+
+.card {
+    margin: 0 auto;
+}
+
+.fas {
+    font-size: 3rem;
+}
