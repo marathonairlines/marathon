@@ -1,5 +1,5 @@
 body {
-    font-family: 'Oswald', sans-serif !important;
+    font-family: 'Barlow Semi Condensed', sans-serif !important;
 }
 
 .navbar-brand {
@@ -44,4 +44,20 @@ nav .nav-item:hover::before {
 
 .fas {
     font-size: 3rem;
+}
+
+.fa {
+    font-size: 3rem;
+}
+
+.bronze {
+    color: #cd7f32;
+}
+
+.silver {
+    color: #aaa9ad;
+}
+
+.gold {
+    color: #ffd700;
 }
