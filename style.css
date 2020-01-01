@@ -1,13 +1,31 @@
 body {
     font-family: 'Barlow Semi Condensed', sans-serif !important;
+    background:
+    linear-gradient(27deg, #eaeaea 5px, transparent 5px) 0 5px,
+    linear-gradient(207deg, #eaeaea 5px, transparent 5px) 10px 0px,
+    linear-gradient(27deg, #ddd 5px, transparent 5px) 0px 10px,
+    linear-gradient(207deg, #ddd 5px, transparent 5px) 10px 5px,
+    linear-gradient(90deg, #e4e4e4 10px, transparent 10px),
+    linear-gradient(#e2e2e2 25%, #e5e5e5 25%, #e5e5e5 50%, transparent 50%, transparent 75%, #dbdbdb 75%, #dbdbdb);
+    background-color: #ececec !important;
+    background-size: 20px 20px;
+}
+
+.container {
+    padding: 0 !important;
+}
+
+.logo {
+    width: 6rem;
 }
 
 .navbar-brand {
-    font-size: 2.3rem !important;
+    font-size: 1.5rem !important;
+    font-weight: bold;
 }
 
 nav div {
-    font-size: 2rem !important;
+    font-size: 1.2rem !important;
 }
 
 nav li {
@@ -60,4 +78,12 @@ nav .nav-item:hover::before {
 
 .gold {
     color: #ffd700;
+}
+
+footer {
+    background-color: rgba(110, 110, 110, .6);
+}
+
+.filler {
+    height: 5rem;
 }
