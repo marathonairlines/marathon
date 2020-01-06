@@ -19,6 +19,10 @@ body {
     width: 6rem;
 }
 
+.nav-background {
+    background-color: rgba(200, 200, 200, .75);
+}
+
 .navbar-brand {
     font-size: 1.5rem !important;
     font-weight: bold;
@@ -48,6 +52,23 @@ nav .nav-item:hover::before {
     width: 100%;
 }
 
+.btn {
+    display:inline-block !important;
+    border:0.1em solid #FFFFFF !important;
+    border-radius:0.12em !important;
+    box-sizing: border-box !important;
+    text-decoration:none !important;
+    font-weight:300 !important;
+    color:#FFFFFF !important;
+    text-align:center !important;
+    transition: all 0.2s !important;
+}
+
+.btn:hover {
+    color:#000000 !important;
+    background-color:#FFFFFF !important;
+}
+
 .dropdown-item {
     font-size: 1.5rem;
 }
@@ -60,12 +81,16 @@ nav .nav-item:hover::before {
     margin: 0 auto;
 }
 
+.fa {
+    font-size: 3rem;
+}
+
 .fas {
     font-size: 3rem;
 }
 
-.fa {
-    font-size: 3rem;
+.fab {
+    font-size: 1.5rem;
 }
 
 .bronze {
@@ -81,9 +106,23 @@ nav .nav-item:hover::before {
 }
 
 footer {
-    background-color: rgba(110, 110, 110, .6);
+    background-color: rgba(200, 200, 200, .75);
 }
 
 .filler {
     height: 5rem;
 }
+
+.footer-list {
+    list-style: none;
+}
+
+.footer-list-item {
+    text-decoration: none !important; 
+    color: rgba(0, 0, 0, .5);
+}
+
+.footer-list-item:hover {
+    color: #444;
+}
+
