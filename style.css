@@ -19,12 +19,27 @@ body {
     width: 6rem;
 }
 
+.mobile-logo {
+    width: 5.5rem;
+}
+
+#navbar {
+    position: sticky;
+    top: 0;
+    z-index: 20;
+}
+
 .nav-background {
-    background-color: rgba(200, 200, 200, .75);
+    background-color: rgba(210, 210, 210, 1);
 }
 
 .navbar-brand {
     font-size: 1.5rem !important;
+    font-weight: bold;
+}
+
+.mobile-navbar-brand {
+    font-size: 1.4rem !important;
     font-weight: bold;
 }
 
@@ -75,6 +90,10 @@ nav .nav-item:hover::before {
 
 .slider-img {
     filter: brightness(50%);
+}
+
+.img-mobile {
+    height: 15rem;
 }
 
 .brighter {

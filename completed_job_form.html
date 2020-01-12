@@ -15,7 +15,7 @@
     </head>
     <body>
         <!--Navbar-->
-        <div class="nav-background">
+        <div id="navbar" class="nav-background">
             <div class="container">
                 <nav class="navbar navbar-expand-lg navbar-light py-1">
                     <a class="navbar-brand p-0" href="./index.html"><img class="logo" src="./logo3.png">Marathon Air Lines</a>
@@ -45,8 +45,12 @@
             </div>
         </div>
         <div class="container py-4">
-            <div>
+            <div class="d-none d-md-block">
                 <h1 class="title">Job Opportunities</h1>
+                <h3>At Marathon Airlines, our team is held to the highest regard. Each and every one of our team members has the goal of improving our services. If you would like to become a team member, fill out the form down below.</h3>
+            </div>
+            <div class="text-center d-md-none">
+                <h1 class="center-title">Job Opportunities</h1>
                 <h3>At Marathon Airlines, our team is held to the highest regard. Each and every one of our team members has the goal of improving our services. If you would like to become a team member, fill out the form down below.</h3>
             </div>
             <!--Completed Form Info-->
@@ -56,9 +60,9 @@
         </div>
     </body>
     <!--Footer-->
-    <footer>
+    <footer class="d-none d-lg-block">
         <div class="filler"></div>
-        <div class="container mt-4">
+        <div class="container">
             <div class="row text-center">
                 <div class="col-4">
                     <h3>About Marathon</h3>
@@ -75,7 +79,45 @@
                     </ul>
                 </div>
                 <div class="col-4">
-                    <h3>Policies</h3>
+                    <h3>Company Policies</h3>
+                    <ul class="footer-list p-0">
+                        <li><a class="footer-list-item" href="./terms.html">Legal</a></li>
+                        <li><a class="footer-list-item" href="./privacy.html">Privacy & Security</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="text-center">
+                <small><i class="far fa-copyright"></i> 2020 Marathon Air Lines</small><br>
+                <small>Terms and conditions apply to all promotions and Marathon Miles benefits.</small><br>
+                <small><a class="footer-list-item" href="./credits.html">Credits</a></small>
+            </div>
+            <div class="text-center pt-2">
+                <a class="footer-list-item pr-2" href="https://www.facebook.com"><i class="fab fa-facebook"></i></a>
+                <a class="footer-list-item" href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+                <a class="footer-list-item pl-2" href="https://www.twitter.com"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+    <footer class="d-lg-none">
+        <div class="filler"></div>
+        <div class="container px-3">
+            <div class="row text-center">
+                <div class="col-4">
+                    <h3>About Marathon</h3>
+                    <ul class="footer-list p-0">
+                        <li><a class="footer-list-item" href="./about.html">About Us</a></li>
+                        <li><a class="footer-list-item" href="./job.html">Careers</a></li>
+                    </ul>
+                </div>
+                <div class="col-4">
+                    <h3>Customer Service</h3>
+                    <ul class="footer-list p-0">
+                        <li><a class="footer-list-item" href="https://www.twitter.com">Tweet Us</a></li>
+                        <li><a class="footer-list-item" href="./contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="col-4">
+                    <h3>Company Policies</h3>
                     <ul class="footer-list p-0">
                         <li><a class="footer-list-item" href="./terms.html">Legal</a></li>
                         <li><a class="footer-list-item" href="./privacy.html">Privacy & Security</a></li>

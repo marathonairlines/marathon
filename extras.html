@@ -15,7 +15,7 @@
     </head>
     <body>
         <!--Navbar-->
-        <div class="nav-background">
+        <div id="navbar" class="nav-background">
             <div class="container">
                 <nav class="navbar navbar-expand-lg navbar-light py-1">
                     <a class="navbar-brand p-0" href="./index.html"><img class="logo" src="./logo3.png">Marathon Air Lines</a>
@@ -46,14 +46,14 @@
         </div>
         <!--Info-->
         <div>
-            <img class="mb-5 d-block w-100" src="./extra2.jpg">
+            <img class="mb-5 d-block w-100 img-mobile" src="./extra2.jpg">
         </div>
-        <div class="container pt-5">
+        <div class="container pt-5 d-none d-lg-block">
             <h5><strong>Your Flight, Your Way</strong></h5>
             <h1 class="title">Travel Extras</h1>
-            <h3>Want to step up your flight experience? Try these on for size!</h3>
+            <h3>Want to step up your flight experience? Call us to learn more.</h3>
         </div>
-        <div class="container pt-4 pb-5">
+        <div class="container pt-4 pb-5 d-none d-lg-block">
             <div class="row text-center">
                 <div class="col-4">
                     <div class="card" style="width: 18rem;">
@@ -61,7 +61,6 @@
                         <div class="card-body">
                             <h5 class="card-title">Priority Boarding</h5>
                             <p class="card-text">Give yourself some extra time to find the perfect spot for your carry-on bags, get comfortable, and relax.</p>
-                            <a class="btn btn-dark extra">Buy now: $10</a>
                         </div>
                     </div>
                 </div>
@@ -71,7 +70,6 @@
                         <div class="card-body">
                             <h5 class="card-title">In-flight Wi-Fi</h5>
                             <p class="card-text">Enjoy your flight experience as you watch the time fly by using our in-flight Wi-Fi.</p>
-                            <a class="btn btn-dark extra">Buy now: $15</a>
                         </div>
                     </div>
                 </div>
@@ -81,17 +79,47 @@
                         <div class="card-body">
                             <h5 class="card-title">Mileage Booster</h5>
                             <p class="card-text">Increase your Marathon Miles balance by adding up to 3000 miles on your next flight .</p>
-                            <a class="btn btn-dark extra">Buy now: From $30</a>
                         </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Mobile-->
+        <div class="container d-lg-none">
+            <h5 class="text-center"><strong>Your Flight, Your Way</strong></h5>
+            <h1 class="center-title text-center">Travel Extras</h1>
+            <h3 class="text-center">Want to step up your flight experience? Call us to learn more.</h3>
+        </div>
+        <div class="container pt-4 d-lg-none">
+            <div class="text-center">
+                <div class="card mb-4" style="width: 18rem;">
+                    <img class="card-img-top" src="./extra_card1.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Priority Boarding</h5>
+                        <p class="card-text">Give yourself some extra time to find the perfect spot for your carry-on bags, get comfortable, and relax.</p>
+                    </div>
+                </div>
+                <div class="card mb-4" style="width: 18rem;">
+                    <img class="card-img-top" src="./extra_card2.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">In-flight Wi-Fi</h5>
+                        <p class="card-text">Enjoy your flight experience as you watch the time fly by using our in-flight Wi-Fi.</p>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="./extra_card3.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Mileage Booster</h5>
+                        <p class="card-text">Increase your Marathon Miles balance by adding up to 3000 miles on your next flight .</p>
                     </div>
                 </div>
             </div>
         </div>
     </body>
     <!--Footer-->
-    <footer class="mt-5">
+    <footer class="d-none d-lg-block mt-5">
         <div class="filler"></div>
-        <div class="container mt-4">
+        <div class="container">
             <div class="row text-center">
                 <div class="col-4">
                     <h3>About Marathon</h3>
@@ -108,7 +136,46 @@
                     </ul>
                 </div>
                 <div class="col-4">
-                    <h3>Policies</h3>
+                    <h3>Company Policies</h3>
+                    <ul class="footer-list p-0">
+                        <li><a class="footer-list-item" href="./terms.html">Legal</a></li>
+                        <li><a class="footer-list-item" href="./privacy.html">Privacy & Security</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="text-center">
+                <small><i class="far fa-copyright"></i> 2020 Marathon Air Lines</small><br>
+                <small>Terms and conditions apply to all promotions and Marathon Miles benefits.</small><br>
+                <small><a class="footer-list-item" href="./credits.html">Credits</a></small>
+            </div>
+            <div class="text-center pt-2">
+                <a class="footer-list-item pr-2" href="https://www.facebook.com"><i class="fab fa-facebook"></i></a>
+                <a class="footer-list-item" href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+                <a class="footer-list-item pl-2" href="https://www.twitter.com"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+        <div class="filler"></div>
+    </footer>
+    <footer class="d-lg-none mt-5">
+        <div class="filler"></div>
+        <div class="container px-3">
+            <div class="row text-center">
+                <div class="col-4">
+                    <h3>About Marathon</h3>
+                    <ul class="footer-list p-0">
+                        <li><a class="footer-list-item" href="./about.html">About Us</a></li>
+                        <li><a class="footer-list-item" href="./job.html">Careers</a></li>
+                    </ul>
+                </div>
+                <div class="col-4">
+                    <h3>Customer Service</h3>
+                    <ul class="footer-list p-0">
+                        <li><a class="footer-list-item" href="https://www.twitter.com">Tweet Us</a></li>
+                        <li><a class="footer-list-item" href="./contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="col-4">
+                    <h3>Company Policies</h3>
                     <ul class="footer-list p-0">
                         <li><a class="footer-list-item" href="./terms.html">Legal</a></li>
                         <li><a class="footer-list-item" href="./privacy.html">Privacy & Security</a></li>

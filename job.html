@@ -15,7 +15,7 @@
     </head>
     <body>
         <!--Navbar-->
-        <div class="nav-background">
+        <div id="navbar" class="nav-background">
             <div class="container">
                 <nav class="navbar navbar-expand-lg navbar-light py-1">
                     <a class="navbar-brand p-0" href="./index.html"><img class="logo" src="./logo3.png">Marathon Air Lines</a>
@@ -45,7 +45,7 @@
             </div>
         </div>
         <!--Form-->
-        <div class="container py-4">
+        <div class="container py-4 d-none d-md-block">
             <h1 class="title">Careers</h1>
             <h3>At Marathon Air Lines, our team is held to the highest regard. Each and every one of our team members has the goal of improving our services. If you would like to become a member of our team, fill out the form down below.</h3>
             <div class="form group">
@@ -99,13 +99,64 @@
                 <small class="form-text text-muted pb-4">We will never share your information with outside parties.</small>
                 <a class="btn btn-dark" href="./completed_job_form.html">Submit</a>
             </div>
-            <div class="filler"></div>
+        </div>
+        <!--Mobile-->
+        <div class="container py-4 d-md-none">
+            <h1 class="center-title text-center">Careers</h1>
+            <h3 class="text-center">At Marathon Air Lines, our team is held to the highest regard. Each and every one of our team members has the goal of improving our services. If you would like to become a member of our team, fill out the form down below.</h3>
+            <div class="form group">
+                <div class="py-4">
+                    <label for="firstname">First Name</label>
+                    <input type="name" class="form-control" id="firstname" placeholder="First Name">
+                </div>
+                <div class="pb-4">
+                    <label for="lastname">Last Name</label>
+                    <input type="name" class="form-control" id="lastname" placeholder="Last Name">
+                </div>
+                <div class="pb-4">
+                    <label for="emailaddress">Email Address</label>
+                    <input type="email" class="form-control" id="emailaddress" placeholder="name@example.com">
+                </div>
+                <div class="pb-4">
+                    <label for="primaryphonenumber">Primary Phone Number</label>
+                    <input type="phone-number" class="form-control" id="primaryphonenumber" placeholder="(123) 456-7890">
+                </div>
+                <div class="pb-4">
+                    <label for="secondaryphonenumber">Secondary Phone Number</label>
+                    <input type="phone-number" class="form-control" id="secondaryphonenumber" placeholder="(123) 456-7890">
+                </div>
+                <div class="pb-4">
+                    <label for="communication">Preferred Method of Communication:</label>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="communication" id="communication1" value="option1">
+                        <label class="form-check-label" for="communication1">
+                            Email
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="communication" id="communication2" value="option2">
+                        <label class="form-check-label" for="communication2">
+                            Call
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="communication" id="communication3" value="option3">
+                        <label class="form-check-label" for="communication3">
+                            Text
+                        </label>
+                    </div>
+                </div>
+                <small class="form-text text-muted pb-4 text-center">We will never share your information with outside parties.</small>
+                <div class="text-center">
+                    <a class="btn btn-dark" href="./completed_job_form.html">Submit</a>
+                </div>
+            </div>
         </div>
     </body>
     <!--Footer-->
-    <footer>
+    <footer class="d-none d-lg-block">
         <div class="filler"></div>
-        <div class="container mt-4">
+        <div class="container">
             <div class="row text-center">
                 <div class="col-4">
                     <h3>About Marathon</h3>
@@ -122,7 +173,45 @@
                     </ul>
                 </div>
                 <div class="col-4">
-                    <h3>Policies</h3>
+                    <h3>Company Policies</h3>
+                    <ul class="footer-list p-0">
+                        <li><a class="footer-list-item" href="./terms.html">Legal</a></li>
+                        <li><a class="footer-list-item" href="./privacy.html">Privacy & Security</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="text-center">
+                <small><i class="far fa-copyright"></i> 2020 Marathon Air Lines</small><br>
+                <small>Terms and conditions apply to all promotions and Marathon Miles benefits.</small><br>
+                <small><a class="footer-list-item" href="./credits.html">Credits</a></small>
+            </div>
+            <div class="text-center pt-2">
+                <a class="footer-list-item pr-2" href="https://www.facebook.com"><i class="fab fa-facebook"></i></a>
+                <a class="footer-list-item" href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+                <a class="footer-list-item pl-2" href="https://www.twitter.com"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+    <footer class="d-lg-none">
+        <div class="filler"></div>
+        <div class="container px-3">
+            <div class="row text-center">
+                <div class="col-4">
+                    <h3>About Marathon</h3>
+                    <ul class="footer-list p-0">
+                        <li><a class="footer-list-item" href="./about.html">About Us</a></li>
+                        <li><a class="footer-list-item" href="./job.html">Careers</a></li>
+                    </ul>
+                </div>
+                <div class="col-4">
+                    <h3>Customer Service</h3>
+                    <ul class="footer-list p-0">
+                        <li><a class="footer-list-item" href="https://www.twitter.com">Tweet Us</a></li>
+                        <li><a class="footer-list-item" href="./contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="col-4">
+                    <h3>Company Policies</h3>
                     <ul class="footer-list p-0">
                         <li><a class="footer-list-item" href="./terms.html">Legal</a></li>
                         <li><a class="footer-list-item" href="./privacy.html">Privacy & Security</a></li>

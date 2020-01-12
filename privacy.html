@@ -15,7 +15,7 @@
     </head>
     <body>
         <!--Navbar-->
-        <div class="nav-background">
+        <div id="navbar" class="nav-background">
             <div class="container">
                 <nav class="navbar navbar-expand-lg navbar-light py-1">
                     <a class="navbar-brand p-0" href="./index.html"><img class="logo" src="./logo3.png">Marathon Air Lines</a>
@@ -45,7 +45,7 @@
             </div>
         </div>
         <!--Information-->
-        <div class="container py-4">
+        <div class="container py-4 d-none d-md-block">
             <h1 class="title">Privacy Policy</h1>
             <ol class="pt-3">
                 <h2><li>This Privacy Policy</li></h2>
@@ -64,11 +64,31 @@
                 </p>
             </ol>
         </div>
+        <!--Mobile-->
+        <div class="container py-4 d-md-none">
+            <h1 class="text-center center-title">Privacy Policy</h1>
+            <div class="pt-3 text-center">
+                <h2>1. This Privacy Policy</h2>
+                <div>
+                    <p>All information described in this Privacy Policy is processed by Marathon Air Lines ("Marathon", "we", "us", or "our") as data controller. This Privacy Policy describes our practices related to the use, storage, and disclosure of personal information we collect from or about you when you interact with us in the course of our providing commercial air travel services, ancillary services, or other services provided by us or by others acting on our behalf, including when you use our Website. This Privacy Policy also describes our processing of the personal data of individuals representing our business customers and suppliers. 
+                        Marathon reserves the right to modify this Privacy Policy at any time and without prior notice. We will post any changes to our Website. This Privacy Policy is not a contract and does not create any contractual rights or obligations.
+                    </p>
+                </div>
+                <h2 class="pt-4">2. Data Retention</h2>
+                <div class="pb-4">
+                    <p>We store your information for as long as legally required and consistent with our record retention policies. In general, this storage will be (i) at least for the duration of our relationship, (ii) for as long as you can bring a claim against us and for us to be able to defend ourselves, and (iii) for any period required by tax, aviation, and other applicable laws and regulations.        
+                    </p>
+                </div>
+                <h2>3. Security</h2>
+                <p>Information Security is important to Marathon. We have established appropriate physical, electronic, and managerial safeguards to protect the information we collect in accordance with our Privacy Policy. These safeguards are regularly reviewed to protect against unauthorized access, disclosure, and improper use of your information, and to maintain the accuracy and integrity of that data.
+                </p>
+            </div>
+        </div>
     </body>
     <!--Footer-->
-    <footer>
+    <footer class="d-none d-lg-block">
         <div class="filler"></div>
-        <div class="container mt-4">
+        <div class="container">
             <div class="row text-center">
                 <div class="col-4">
                     <h3>About Marathon</h3>
@@ -85,7 +105,45 @@
                     </ul>
                 </div>
                 <div class="col-4">
-                    <h3>Policies</h3>
+                    <h3>Company Policies</h3>
+                    <ul class="footer-list p-0">
+                        <li><a class="footer-list-item" href="./terms.html">Legal</a></li>
+                        <li><a class="footer-list-item" href="./privacy.html">Privacy & Security</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="text-center">
+                <small><i class="far fa-copyright"></i> 2020 Marathon Air Lines</small><br>
+                <small>Terms and conditions apply to all promotions and Marathon Miles benefits.</small><br>
+                <small><a class="footer-list-item" href="./credits.html">Credits</a></small>
+            </div>
+            <div class="text-center pt-2">
+                <a class="footer-list-item pr-2" href="https://www.facebook.com"><i class="fab fa-facebook"></i></a>
+                <a class="footer-list-item" href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+                <a class="footer-list-item pl-2" href="https://www.twitter.com"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+    <footer class="d-lg-none mt-4">
+        <div class="filler"></div>
+        <div class="container px-3">
+            <div class="row text-center">
+                <div class="col-4">
+                    <h3>About Marathon</h3>
+                    <ul class="footer-list p-0">
+                        <li><a class="footer-list-item" href="./about.html">About Us</a></li>
+                        <li><a class="footer-list-item" href="./job.html">Careers</a></li>
+                    </ul>
+                </div>
+                <div class="col-4">
+                    <h3>Customer Service</h3>
+                    <ul class="footer-list p-0">
+                        <li><a class="footer-list-item" href="https://www.twitter.com">Tweet Us</a></li>
+                        <li><a class="footer-list-item" href="./contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="col-4">
+                    <h3>Company Policies</h3>
                     <ul class="footer-list p-0">
                         <li><a class="footer-list-item" href="./terms.html">Legal</a></li>
                         <li><a class="footer-list-item" href="./privacy.html">Privacy & Security</a></li>
