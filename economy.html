@@ -47,22 +47,22 @@
             </div>
         </div>
         <!--Checkout-->
-        <div class="container">
+        <div class="container d-none d-md-block">
             <h1 class="pt-4 title">Book Flights</h1>
             <div class="card w-50 ml-0 mb-4">
                 <div class="card-body">
                     <h2 class="card-title">Trip Total</h2>
                     <div class="row">
                         <h6 class="col-6">Flights</h6>
-                        <h6 class="col-6 text-right">$439.59</h6>
+                        <h6 class="col-6 text-right">$267.80</h6>
                     </div>
                     <div class="row">
                         <h6 class="col-6">Taxes, Fees & Charges</h6>
-                        <h6 class="col-6 text-right">$71.81</h6>
+                        <h6 class="col-6 text-right">$43.60</h6>
                     </div>
                     <div class="row">
                         <h5 class="col-6">Amount Due</h5>
-                        <h5 class="col-6 text-right">$511.40</h5>
+                        <h5 class="col-6 text-right">$311.40</h5>
                     </div>
                 </div>
             </div>
@@ -118,6 +118,79 @@
                 </div>
             </div>
             <a class="btn btn-dark mt-4" href="./completed_book_form.html">Complete Purchase</a>
+        </div>
+        <!--Mobile-->
+        <div class="container d-md-none">
+            <h1 class="pt-4 center-title text-center">Book Flights</h1>
+            <div class="card w-100 ml-0 mb-4">
+                <div class="card-body">
+                    <h2 class="card-title">Trip Total</h2>
+                    <div class="row">
+                        <h6 class="col-6">Flights</h6>
+                        <h6 class="col-6 text-right">$267.80</h6>
+                    </div>
+                    <div class="row">
+                        <h6 class="col-6">Taxes, Fees & Charges</h6>
+                        <h6 class="col-6 text-right">$43,60</h6>
+                    </div>
+                    <div class="row">
+                        <h5 class="col-6">Amount Due</h5>
+                        <h5 class="col-6 text-right">$311.40</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <h2 class="card-title">Payment</h2>
+                        <div class="form-group">
+                            <label for="creditCard">Credit Card Number</label>
+                            <input type="email" class="form-control" id="creditCard" placeholder="Card Number">
+                        </div>
+                    <div class="row">
+                        <div class="form-group col-6">
+                            <label for="expirationDate">Expiration Date</label>
+                            <input type="numbers" class="form-control" id="expirationDate" placeholder="MM/YY">
+                        </div>
+                        <div class="form-group col-6">
+                            <label for="cvv">CVV</label>
+                            <input type="numbers" class="form-control" id="cvv" placeholder="CVV">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="cardName">Name on Card</label>
+                        <input type="name" class="form-control" id="cardName" placeholder="Name on Card">
+                    </div>
+                    <div class="form-group">
+                        <label for="country">Country</label>
+                        <input type="text" class="form-control" id="country" placeholder="Country/Region">
+                    </div>
+                    <div class="form-group">
+                        <label for="address1">Address Line 1</label>
+                        <input type="text" class="form-control" id="address1" placeholder="Address Line 1">
+                    </div>
+                    <div class="form-group">
+                        <label for="address2">Address Line 2</label>
+                        <input type="text" class="form-control" id="address2" placeholder="Address Line 1">
+                    </div>
+                    <div class="row">
+                        <div class="form-group col-4">
+                            <label for="city">City</label>
+                            <input type="text" class="form-control" id="address1" placeholder="City">
+                        </div>
+                        <div class="form-group col-3">
+                            <label for="state">State</label>
+                            <input type="text" class="form-control" id="address1" placeholder="WA">
+                        </div>
+                        <div class="form-group col-5">
+                            <label for="postalCode">Postal Code</label>
+                            <input type="text" class="form-control" id="postalCode" placeholder="Postal Code">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center">
+                <a class="btn btn-dark mt-4" href="./completed_book_form.html">Complete Purchase</a>
+            </div>
         </div>
     </body>
     <!--Footer-->
