@@ -5,7 +5,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>Marathon Miles</title>
+        <title>Book Flights</title>
         <link rel="stylesheet" href="./style.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
         <link href="https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed&display=swap" rel="stylesheet">
@@ -46,107 +46,78 @@
                 </nav>
             </div>
         </div>
-        <!--Picture-->
-        <div>
-            <img class="mb-5 d-block w-100 d-none d-md-block" src="./miles.jpg">
-            <img class="mb-5 d-block w-100 img-mobile d-md-none" src="./miles.jpg">
-        </div>
-        <!--Opening Description-->
-        <div class="container py-5 d-none d-lg-block">
-            <h5><strong>Marathon Miles Loyalty Program</strong></h5>
-            <h1 class="title">Get to Know Marathon Miles</h1>
-            <h3>With Marathon Miles, every trip and purchase can bring you to the next place on your travel wish list. Earn miles for flying and everyday activities, then use miles toward travel on any Marathon Air Lines flight with no blackout dates or for rewards.</h3>
-        </div>
-        <!--More Info-->
-        <div class="container py-5 d-none d-lg-block">
-            <h1 class="title">Earn When You Fly</h1>
-            <h3>As a Marathon Miles customer, you'll earn 3 miles for every dollar you spend. So when you pay a higher price, you're rewarded with more miles.</h3>
-            <h2>How to Earn on Flights:</h2>
-            <ul>
-                <li><h3>Book a flight - it's that easy.</h3></li>
-                <li><h3>Achieve Trophy Status and earn even more - up to 12 miles for every dollar spent.</h3></li>
-            </ul>
-            <a class="btn btn-dark" href="./book.html">BOOK A FLIGHT</a>
-        </div>
-        <div class="container py-5 d-none d-lg-block">
-            <h1 class="title">Earn More with Trophy Status</h1>
-            <h3>You deserve to be rewarded for you loyalty, so customers earn more miles at each Trophy Tier. The amount you'll earn is based on your status at the time of your travel.</h3>
-            <div class="row pt-5">
-                <div class="col-4">
-                    <div class="card" style="width: 18rem;">
-                        <div class="card-body text-center">
-                            <i class="card-img-top fa fa-trophy bronze pb-2" aria-hidden="true"></i>
-                            <h5 class="card-title">Bronze</h5>
-                            <p class="card-text">Earn 5 miles for every dollar you spend on your flight, and receive access to priority boarding and waive same-day change fees.</p>
-                        </div>
+        <!--Checkout-->
+        <div class="container">
+            <h1 class="pt-4 title">Book Flights</h1>
+            <div class="card w-50 ml-0 mb-4">
+                <div class="card-body">
+                    <h2 class="card-title">Trip Total</h2>
+                    <div class="row">
+                        <h6 class="col-6">Flights</h6>
+                        <h6 class="col-6 text-right">$515.23</h6>
+                    </div>
+                    <div class="row">
+                        <h6 class="col-6">Taxes, Fees & Charges</h6>
+                        <h6 class="col-6 text-right">$84.17</h6>
+                    </div>
+                    <div class="row">
+                        <h5 class="col-6">Amount Due</h5>
+                        <h5 class="col-6 text-right">$599.40</h5>
                     </div>
                 </div>
-                <div class="col-4">
-                    <div class="card" style="width: 18rem;">
-                        <div class="card-body text-center">
-                            <i class="card-img-top fa fa-trophy silver pb-2" aria-hidden="true"></i>
-                            <h5 class="card-title">Silver</h5>
-                            <p class="card-text">Earn 8 miles for every dollar you spend on your flight, and receive access to Bronze promotions as well as Marathon+ seating.</p>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <h2 class="card-title">Payment</h2>
+                    <div class="row">
+                        <div class="form-group col-4">
+                            <label for="creditCard">Credit Card Number</label>
+                            <input type="email" class="form-control" id="creditCard" placeholder="Card Number">
+                        </div>
+                        <div class="form-group col-3">
+                            <label for="expirationDate">Expiration Date</label>
+                            <input type="numbers" class="form-control" id="expirationDate" placeholder="MM/YY">
+                        </div>
+                        <div class="form-group col-1">
+                            <label for="cvv">CVV</label>
+                            <input type="numbers" class="form-control" id="cvv" placeholder="CVV">
+                        </div>
+                        <div class="form-group col-4">
+                            <label for="cardName">Name on Card</label>
+                            <input type="name" class="form-control" id="cardName" placeholder="Name on Card">
                         </div>
                     </div>
-                </div>
-                <div class="col-4">
-                    <div class="card" style="width: 18rem;">
-                        <div class="card-body text-center">
-                            <i class="card-img-top fa fa-trophy gold pb-2" aria-hidden="true"></i>
-                            <h5 class="card-title">Gold</h5>
-                            <p class="card-text">Earn 12 miles for every dollar you spend on your flight, and receive access to Silver promotions as well as free in-flight menu items.</p>
+                    <div class="row">
+                        <div class="form-group col-4">
+                            <label for="country">Country</label>
+                            <input type="text" class="form-control" id="country" placeholder="Country/Region">
+                        </div>
+                        <div class="form-group col-4">
+                            <label for="address1">Address Line 1</label>
+                            <input type="text" class="form-control" id="address1" placeholder="Address Line 1">
+                        </div>
+                        <div class="form-group col-4">
+                            <label for="address2">Address Line 2</label>
+                            <input type="text" class="form-control" id="address2" placeholder="Address Line 1">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="form-group col-4">
+                            <label for="city">City</label>
+                            <input type="text" class="form-control" id="address1" placeholder="City">
+                        </div>
+                        <div class="form-group col-4">
+                            <label for="state">State</label>
+                            <input type="text" class="form-control" id="address1" placeholder="WA">
+                        </div>
+                        <div class="form-group col-4">
+                            <label for="postalCode">Postal Code</label>
+                            <input type="text" class="form-control" id="postalCode" placeholder="Postal Code">
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <!--Mobile-->
-        <!--Opening Description-->
-        <div class="container pb-5 d-lg-none">
-            <h5 class="text-center"><strong>Marathon Miles Loyalty Program</strong></h5>
-            <h1 class="center-title text-center">Get to Know Marathon Miles</h1>
-            <h3 class="text-center">With Marathon Miles, every trip and purchase can bring you to the next place on your travel wish list. Earn miles for flying and everyday activities, then use miles toward travel on any Marathon Air Lines flight with no blackout dates or for rewards.</h3>
-        </div>
-        <!--More Info-->
-        <div class="container py-5 d-lg-none">
-            <h1 class="center-title text-center">Earn When You Fly</h1>
-            <h3 class="text-center">As a Marathon Miles customer, you'll earn 3 miles for every dollar you spend. So when you pay a higher price, you're rewarded with more miles.</h3>
-            <h2 class="text-center">How to Earn on Flights:</h2>
-            <ul class="text-center">
-                <li><h3>Book a flight - it's that easy.</h3></li>
-                <li><h3>Achieve Trophy Status and earn even more - up to 12 miles for every dollar spent.</h3></li>
-            </ul>
-            <div class="text-center">
-                <a class="btn btn-dark" href="./book.html">BOOK A FLIGHT</a>
-            </div>
-        </div>
-        <div class="container py-5 d-lg-none">
-            <h1 class="center-title text-center">Earn More with Trophy Status</h1>
-            <h3 class="text-center">You deserve to be rewarded for you loyalty, so customers earn more miles at each Trophy Tier. The amount you'll earn is based on your status at the time of your travel.</h3>
-            <div class="pt-5">
-                <div class="card" style="width: 18rem;">
-                    <div class="card-body text-center">
-                        <i class="card-img-top fa fa-trophy bronze pb-2" aria-hidden="true"></i>
-                        <h5 class="card-title">Bronze</h5>
-                        <p class="card-text">Earn 5 miles for every dollar you spend on your flight, and receive access to priority boarding and waive same-day change fees.</p>
-                    </div>
-                </div>
-                <div class="card my-4" style="width: 18rem;">
-                    <div class="card-body text-center">
-                        <i class="card-img-top fa fa-trophy silver pb-2" aria-hidden="true"></i>
-                        <h5 class="card-title">Silver</h5>
-                        <p class="card-text">Earn 8 miles for every dollar you spend on your flight, and receive access to Bronze promotions as well as Marathon+ seating.</p>
-                    </div>
-                </div>
-                <div class="card" style="width: 18rem;">
-                    <div class="card-body text-center">
-                        <i class="card-img-top fa fa-trophy gold pb-2" aria-hidden="true"></i>
-                        <h5 class="card-title">Gold</h5>
-                        <p class="card-text">Earn 12 miles for every dollar you spend on your flight, and receive access to Silver promotions as well as free in-flight menu items.</p>
-                    </div>
-                </div>
-            </div>
+            <a class="btn btn-dark mt-4" href="./completed_book_form.html">Complete Purchase</a>
         </div>
     </body>
     <!--Footer-->
@@ -186,10 +157,10 @@
                 <a class="footer-list-item" href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
                 <a class="footer-list-item pl-2" href="https://www.twitter.com"><i class="fab fa-twitter"></i></a>
             </div>
+            <div class="filler"></div>
         </div>
-        <div class="filler"></div>
     </footer>
-    <footer class="d-lg-none">
+    <footer class="d-lg-none mt-4">
         <div class="filler"></div>
         <div class="container px-3">
             <div class="row text-center">

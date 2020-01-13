@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="icon" href="./logo3.png">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Book Flights</title>
+        <link rel="stylesheet" href="./style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/fbb0c919fb.js" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <!--Navbar-->
+        <div id="navbar" class="nav-background">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg navbar-light py-1">
+                    <a class="navbar-brand p-0 d-none d-md-block" href="./index.html"><img class="logo" src="./logo3.png">Marathon Air Lines</a>
+                    <a class="navbar-brand mobile-navbar-brand p-0 d-md-none" href="./index.html"><img class="logo mobile-logo" src="./logo3.png">Marathon Air Lines</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                            <li class="nav-item px-3">
+                                <a class="nav-link" href="./index.html">Home</a>
+                            </li>
+                            <li class="nav-item px-3">
+                                <a class="nav-link" href="./book.html">Book Flights</a>
+                            </li>
+                            <li class="nav-item px-3">
+                                <a class="nav-link" href="./miles.html">Marathon Miles</a>
+                            </li>
+                            <li class="nav-item dropdown px-3">
+                                <a class="nav-link" href="./experience.html">Onboard Experience</a>
+                            </li>
+                            <li class="nav-item dropdown px-3">
+                                <a class="nav-link" href="./extras.html">Travel Extras</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <!--Flight Cards-->
+        <div class="container">
+            <h1 class="pt-4 title">Book Flights</h1>
+            <div class="row mb-4">
+                <div class="card col-1" style="width: 18rem;">
+                    <h5 class="my-auto text-center">May 15, 2020</h5>
+                    <h5 class="my-auto text-center">May 18, 2020</h5>
+                </div>
+                <div class="card col-5" style="width: 18rem;">
+                    <div class="card-body">
+                        <div class="row">
+                            <h3 class="card-title col-4 text-center">11:45 am</h3>
+                            <i class="fas fa-plane flight-icon col-4 text-center my-auto"></i>
+                            <h3 class="card-title flight-text col-4 text-center">2:50 pm</h3>
+                        </div>
+                        <div class="row">
+                            <p class="card-text col-4 text-center my-auto">SEA</p>
+                            <i class="fas fa-plane flight-icon col-4 text-center my-auto"></i>
+                            <p class="card-text col-4 text-center my-auto">BIL</p>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="row">
+                            <h3 class="card-title col-4 text-center">7:25 am</h3>
+                            <i class="fas fa-plane flight-icon col-4 text-center my-auto"></i>
+                            <h3 class="card-title flight-text col-4 text-center">8:30 am</h3>
+                        </div>
+                        <div class="row">
+                            <p class="card-text col-4 text-center my-auto">BIL</p>
+                            <i class="fas fa-plane flight-icon col-4 text-center my-auto"></i>
+                            <p class="card-text col-4 text-center my-auto">SEA</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card col-2 text-center" style="width: 18rem;">
+                    <div class="card-body my-auto">
+                        <h5 class="card-title">Economy Class</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">From</h6>
+                        <h4 class="card-text">$511.40</h4>
+                        <p class="card-text">Round Trip</p>
+                        <a class="btn btn-dark" href="./economy.html">BOOK</a>
+                    </div>
+                </div>
+                <div class="card col-2 text-center" style="width: 18rem;">
+                    <div class="card-body my-auto">
+                        <h5 class="card-title">Marathon+</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">From</h6>
+                        <h4 class="card-text">$599.40</h4>
+                        <p class="card-text">Round Trip</p>
+                        <a class="btn btn-dark" href="./marathon_plus.html">BOOK</a>
+                    </div>
+                </div>
+                <div class="card col-2 text-center" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">First Class</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">From</h6>
+                        <h4 class="card-text">$799.40</h4>
+                        <p class="card-text">Round Trip</p>
+                        <a class="btn btn-dark" href="./first_class.html">BOOK</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row mb-4">
+                <div class="card col-1" style="width: 18rem;">
+                    <h5 class="my-auto text-center">May 15, 2020</h5>
+                    <h5 class="my-auto text-center">May 18, 2020</h5>
+                </div>
+                <div class="card col-5" style="width: 18rem;">
+                    <div class="card-body">
+                        <div class="row">
+                            <h3 class="card-title col-4 text-center">5:30 am</h3>
+                            <i class="fas fa-plane flight-icon col-4 text-center my-auto"></i>
+                            <h3 class="card-title flight-text col-4 text-center">8:40 am</h3>
+                        </div>
+                        <div class="row">
+                            <p class="card-text col-4 text-center my-auto">SEA</p>
+                            <i class="fas fa-plane flight-icon col-4 text-center my-auto"></i>
+                            <p class="card-text col-4 text-center my-auto">BIL</p>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="row">
+                            <h3 class="card-title col-4 text-center">4:40 pm</h3>
+                            <i class="fas fa-plane flight-icon col-4 text-center my-auto"></i>
+                            <h3 class="card-title flight-text col-4 text-center">5:45 pm</h3>
+                        </div>
+                        <div class="row">
+                            <p class="card-text col-4 text-center my-auto">BIL</p>
+                            <i class="fas fa-plane flight-icon col-4 text-center my-auto"></i>
+                            <p class="card-text col-4 text-center my-auto">SEA</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card col-2 text-center" style="width: 18rem;">
+                    <div class="card-body my-auto">
+                        <h5 class="card-title">Economy Class</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">From</h6>
+                        <h4 class="card-text">$511.40</h4>
+                        <p class="card-text">Round Trip</p>
+                        <a class="btn btn-dark" href="./economy.html">BOOK</a>
+                    </div>
+                </div>
+                <div class="card col-2 text-center" style="width: 18rem;">
+                    <div class="card-body my-auto">
+                        <h5 class="card-title">Marathon+</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">From</h6>
+                        <h4 class="card-text">$599.40</h4>
+                        <p class="card-text">Round Trip</p>
+                        <a class="btn btn-dark" href="./marathon_plus.html">BOOK</a>
+                    </div>
+                </div>
+                <div class="card col-2 text-center" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">First Class</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">From</h6>
+                        <h4 class="card-text">$799.40</h4>
+                        <p class="card-text">Round Trip</p>
+                        <a class="btn btn-dark" href="./first_class.html">BOOK</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row mb-4">
+                <div class="card col-1" style="width: 18rem;">
+                    <h5 class="my-auto text-center">May 15, 2020</h5>
+                    <h5 class="my-auto text-center">May 18, 2020</h5>
+                </div>
+                <div class="card col-5" style="width: 18rem;">
+                    <div class="card-body">
+                        <div class="row">
+                            <h3 class="card-title col-4 text-center">6:15 pm</h3>
+                            <i class="fas fa-plane flight-icon col-4 text-center my-auto"></i>
+                            <h3 class="card-title flight-text col-4 text-center">9:20 pm</h3>
+                        </div>
+                        <div class="row">
+                            <p class="card-text col-4 text-center my-auto">SEA</p>
+                            <i class="fas fa-plane flight-icon col-4 text-center my-auto"></i>
+                            <p class="card-text col-4 text-center my-auto">BIL</p>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="row">
+                            <h3 class="card-title col-4 text-center">8:55 am</h3>
+                            <i class="fas fa-plane flight-icon col-4 text-center my-auto"></i>
+                            <h3 class="card-title flight-text col-4 text-center">10:00 am</h3>
+                        </div>
+                        <div class="row">
+                            <p class="card-text col-4 text-center my-auto">BIL</p>
+                            <i class="fas fa-plane flight-icon col-4 text-center my-auto"></i>
+                            <p class="card-text col-4 text-center my-auto">SEA</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card col-2 text-center" style="width: 18rem;">
+                    <div class="card-body my-auto">
+                        <h5 class="card-title">Economy Class</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">From</h6>
+                        <h4 class="card-text">$511.40</h4>
+                        <p class="card-text">Round Trip</p>
+                        <a class="btn btn-dark" href="./economy.html">BOOK</a>
+                    </div>
+                </div>
+                <div class="card col-2 text-center" style="width: 18rem;">
+                    <div class="card-body my-auto">
+                        <h5 class="card-title">Marathon+</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">From</h6>
+                        <h4 class="card-text">$599.40</h4>
+                        <p class="card-text">Round Trip</p>
+                        <a class="btn btn-dark" href="./marathon_plus.html">BOOK</a>
+                    </div>
+                </div>
+                <div class="card col-2 text-center" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">First Class</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">From</h6>
+                        <h4 class="card-text">$799.40</h4>
+                        <p class="card-text">Round Trip</p>
+                        <a class="btn btn-dark" href="./first_class.html">BOOK</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+    <!--Footer-->
+    <footer class="d-none d-lg-block mt-5">
+        <div class="filler"></div>
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-4">
+                    <h3>About Marathon</h3>
+                    <ul class="footer-list p-0">
+                        <li><a class="footer-list-item" href="./about.html">About Us</a></li>
+                        <li><a class="footer-list-item" href="./job.html">Careers</a></li>
+                    </ul>
+                </div>
+                <div class="col-4">
+                    <h3>Customer Service</h3>
+                    <ul class="footer-list p-0">
+                        <li><a class="footer-list-item" href="https://www.twitter.com">Tweet Us</a></li>
+                        <li><a class="footer-list-item" href="./contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="col-4">
+                    <h3>Company Policies</h3>
+                    <ul class="footer-list p-0">
+                        <li><a class="footer-list-item" href="./terms.html">Legal</a></li>
+                        <li><a class="footer-list-item" href="./privacy.html">Privacy & Security</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="text-center">
+                <small><i class="far fa-copyright"></i> 2020 Marathon Air Lines</small><br>
+                <small>Terms and conditions apply to all promotions and Marathon Miles benefits.</small><br>
+                <small><a class="footer-list-item" href="./credits.html">Credits</a></small>
+            </div>
+            <div class="text-center pt-2">
+                <a class="footer-list-item pr-2" href="https://www.facebook.com"><i class="fab fa-facebook"></i></a>
+                <a class="footer-list-item" href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+                <a class="footer-list-item pl-2" href="https://www.twitter.com"><i class="fab fa-twitter"></i></a>
+            </div>
+            <div class="filler"></div>
+        </div>
+    </footer>
+    <footer class="d-lg-none mt-4">
+        <div class="filler"></div>
+        <div class="container px-3">
+            <div class="row text-center">
+                <div class="col-4">
+                    <h3>About Marathon</h3>
+                    <ul class="footer-list p-0">
+                        <li><a class="footer-list-item" href="./about.html">About Us</a></li>
+                        <li><a class="footer-list-item" href="./job.html">Careers</a></li>
+                    </ul>
+                </div>
+                <div class="col-4">
+                    <h3>Customer Service</h3>
+                    <ul class="footer-list p-0">
+                        <li><a class="footer-list-item" href="https://www.twitter.com">Tweet Us</a></li>
+                        <li><a class="footer-list-item" href="./contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="col-4">
+                    <h3>Company Policies</h3>
+                    <ul class="footer-list p-0">
+                        <li><a class="footer-list-item" href="./terms.html">Legal</a></li>
+                        <li><a class="footer-list-item" href="./privacy.html">Privacy & Security</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="text-center">
+                <small><i class="far fa-copyright"></i> 2020 Marathon Air Lines</small><br>
+                <small>Terms and conditions apply to all promotions and Marathon Miles benefits.</small><br>
+                <small><a class="footer-list-item" href="./credits.html">Credits</a></small>
+            </div>
+            <div class="text-center pt-2">
+                <a class="footer-list-item pr-2" href="https://www.facebook.com"><i class="fab fa-facebook"></i></a>
+                <a class="footer-list-item" href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+                <a class="footer-list-item pl-2" href="https://www.twitter.com"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+        <div class="filler"></div>
+    </footer>
+</html>

@@ -139,6 +139,10 @@ nav .nav-item:hover::before {
     font-size: 1.5rem;
 }
 
+.flight-icon {
+    font-size: 1rem;
+}
+
 .bronze {
     color: #cd7f32;
 }
